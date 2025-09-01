@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>גיא זיסקינד (Guy Zyskind)</title>
+
+    <!-- Canonical & hreflang -->
+    <link rel="canonical" href="https://guyzyskind.com/he/">
+    <link rel="alternate" hreflang="en-US" href="https://guyzyskind.com/">
+    <link rel="alternate" hreflang="he-IL" href="https://guyzyskind.com/he/">
+    <link rel="alternate" hreflang="x-default" href="https://guyzyskind.com/">
+
+    <!-- Identity (optional but nice) -->
+    <link rel="me" href="https://x.com/GuyZys">
+    <link rel="me" href="https://www.linkedin.com/in/gguyz">
+
+    <!-- Assets: use root-absolute paths from /he/ -->
+    <link rel="icon" href="../assets/favicon.svg">
+    <link rel="apple-touch-icon" href="../assets/profile.jpg">
+    <link rel="stylesheet" href="../assets/styles.css">
+
+    <!-- Meta -->
+    <meta name="description" content="חוקר ויזם המקדמים פרטיות במערכות מבוזרות וב-AI — מבקרת גישה וחוזים חכמים חסויים ועד FHE ו-AI שומר פרטיות. PhD, MIT Media Lab.">
+    <meta property="og:site_name" content="גיא זיסקינד">
+    <meta property="og:title" content="גיא זיסקינד — פרטיות בבלוקצ'יין וב-AI">
+    <meta property="og:description" content="קידום פרטיות במערכות מבוזרות וב-AI — בקרת גישה, חוזים חכמים חסויים, FHE ו-AI שומר פרטיות.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://guyzyskind.com/he/">
+    <meta property="og:image" content="https://guyzyskind.com/assets/profile.jpg">
+    <meta property="og:image:alt" content="תמונה של גיא זיסקינד">
+    <meta property="og:locale" content="he_IL">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@GuyZys">
+    <meta name="twitter:creator" content="@GuyZys">
+    <meta name="twitter:title" content="גיא זיסקינד">
+    <meta name="twitter:description" content="בקרת גישה, חוזים חכמים חסויים, DeFi/מדיה מוצפנים, FHE ו-AI שומר פרטיות. PhD, MIT.">
+    <meta name="twitter:image" content="https://guyzyskind.com/assets/profile.jpg">
+
+    <!-- JSON-LD (mirrors EN; same @ids to unify the entity across languages) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://guyzyskind.com/#person",
+          "name": "גיא זיסקינד",
+          "alternateName": ["Guy Zyskind"],
+          "honorificSuffix": "PhD",
+          "givenName": "Guy",
+          "familyName": "Zyskind",
+          "url": "https://guyzyskind.com/",
+          "image": { "@id": "https://guyzyskind.com/#profile-image" },
+          "description": "חוקר ויזם בקריפטוגרפיה שימושית ופרטיות. העבודה כוללת בקרת גישה על בלוקצ'יינים, חוזים חכמים חסויים, הצפנה הומומורפית מלאה (FHE) ו-AI שומר פרטיות.",
+          "jobTitle": "מייסד Fhenix; חוקר קריפטוגרפיה שימושית",
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Massachusetts Institute of Technology",
+              "sameAs": [
+                "https://www.mit.edu/",
+                "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
+                "https://www.wikidata.org/entity/Q49108"
+              ]
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Tel Aviv University",
+              "sameAs": [
+                "https://www.tau.ac.il/",
+                "https://en.wikipedia.org/wiki/Tel_Aviv_University",
+                "https://www.wikidata.org/entity/Q156630"
+              ]
+            }
+          ],
+          "affiliation": [
+            { "@type": "Organization", "name": "MIT Media Lab", "sameAs": ["https://www.media.mit.edu/", "https://en.wikipedia.org/wiki/MIT_Media_Lab"] },
+            { "@type": "Organization", "name": "Fhenix", "sameAs": ["https://fhenix.io/"] },
+            { "@type": "Organization", "name": "Secret Network", "sameAs": ["https://scrt.network/"] }
+          ],
+          "worksFor": { "@type": "Organization", "name": "Fhenix", "sameAs": ["https://fhenix.io/"] },
+          "knowsAbout": [
+            "Confidential smart contracts",
+            "Access control on blockchains",
+            "Multi-party computation (MPC)",
+            "Trusted execution environments (TEE)",
+            "Fully homomorphic encryption (FHE)",
+            "Privacy-preserving AI",
+            "MEV"
+          ],
+          "knowsLanguage": ["he", "en"],
+          "sameAs": [
+            "https://x.com/GuyZys",
+            "https://www.linkedin.com/in/gguyz",
+            "https://scholar.google.com/citations?user=VA5VktEAAAAJ",
+            "https://web.media.mit.edu/~guyz/",
+            "https://fhenix.io/",
+            "https://scrt.network/"
+          ],
+          "mainEntityOfPage": { "@id": "https://guyzyskind.com/he/#webpage" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://guyzyskind.com/#website",
+          "url": "https://guyzyskind.com/",
+          "name": "Guy Zyskind",
+          "inLanguage": "he",
+          "publisher": { "@id": "https://guyzyskind.com/#person" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://guyzyskind.com/he/#webpage",
+          "url": "https://guyzyskind.com/he/",
+          "name": "גיא זיסקינד — האתר הרשמי",
+          "about": { "@id": "https://guyzyskind.com/#person" },
+          "primaryImageOfPage": { "@id": "https://guyzyskind.com/#profile-image" },
+          "inLanguage": "he"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://guyzyskind.com/#profile-image",
+          "contentUrl": "https://guyzyskind.com/assets/profile.jpg",
+          "caption": "דיוקן של גיא זיסקינד"
+        },
+        {
+          "@type":"ItemList",
+          "@id":"https://guyzyskind.com/he/#press",
+          "name":"ארכיון תקשורת — גיא זיסקינד",
+          "itemListElement":[
+            {"@type":"ListItem","position":1,"url":"https://www.wired.com/2015/06/mits-bitcoin-inspired-enigma-lets-computers-mine-encrypted-data/","name":"MIT’s Bitcoin-Inspired ‘Enigma’ Lets Computers Mine Encrypted Data"},
+            {"@type":"ListItem","position":2,"url":"https://www.bloomberg.com/news/articles/2021-11-02/tarantino-to-auction-seven-unseen-pulp-fiction-scenes-as-nfts","name":"Tarantino to Auction Seven Unseen Pulp Fiction Scenes as NFTs"},
+            {"@type":"ListItem","position":3,"url":"https://www.coindesk.com/business/2022/01/19/privacy-focused-blockchain-secret-network-announces-400m-in-ecosystem-funding","name":"Privacy-Focused Secret Network Announces $400M in Ecosystem Funding"},
+            {"@type":"ListItem","position":4,"url":"https://www.calcalistech.com/ctechnews/article/rj6kurnbc","name":"Fhenix raises $15M Series A to bring confidentiality to Ethereum"}
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">דלג לתוכן</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="ניווט ראשי">
+        <a class="brand" href="./">גיא זיסקינד</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="navmenu" onclick="toggleMenu(this)">
+          <span class="sr-only">תפריט</span>☰
+        </button>
+        <ul id="navmenu" class="navmenu">
+          <li><a href="#work">עבודות בולטות</a></li>
+          <li><a href="#interests">תחומי עניין נוכחיים</a></li>
+          <li><a href="#research">מחקר</a></li>
+          <li><a href="#press">ארכיון תקשורת</a></li>
+          <li class="lang"><a href="../" hreflang="en" rel="alternate">EN</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero container">
+        <div class="hero-inner">
+          <img src="../assets/profile.jpg" alt="דיוקן של גיא זיסקינד" class="avatar" loading="lazy" width="128" height="128">
+          <h1>ד״ר גיא זיסקינד</h1>
+          <p class="tagline">
+           פרטיות למערכות מבוזרות ולמכונות חכמות<br>
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="#work">עבודות בולטות</a>
+            <a class="btn outline" href="#research">פרסומים</a>
+          </div>
+          <p>
+            אני עוסק בקריפטוגרפיה שימושית, אבטחת מידע ופרטיות. במסגרת הדוקטורט ב-MIT הצגתי כיוונים חדשים להגנת נתונים באמצעות בלוקצ'יינים — החל משימוש בבלוקצ'יין כמנגנון ל<strong>בקרת גישה</strong>, ועד הצעת המודל שנודע כ<strong>חוזים חכמים חסויים</strong>, שבו הנתונים מוצפנים בכל רגע. לאחר מכן השקתי את הרשת הראשונה שהריצה חוזים כאלה בקנה-מידה ואבטחה ערך מצטבר של מיליארדי דולרים; כיום בעבודתי אני עוסק בעיקר בהצפנה הומומורפית ובפרטיות במודלי בינה מלאכותית
+          </p>
+          <div class="chips">
+            <span class="chip">🔑 בקרת גישה על בלוקצ'יין</span>
+            <span class="chip">🔒 חוזים חכמים חסויים</span>
+            <span class="chip">🌐 DeFi ומדיה שומרי-פרטיות</span>
+            <span class="chip">🤖 FHE ו-AI פרטי</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section container">
+        <h2>עבודות בולטות</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>יסודות בקריפטוגרפיה</h3>
+            <p><strong>ב-MIT</strong> חקרתי כיצד מערכות מבוזרות יכולות לאכוף בקרת גישה וחישוב באופן קריפטוגרפי.</p>
+            <ul class="list">
+              <li>ב-2015 הייתי שותף ל<strong>הצעה הראשונה לחוזים חכמים חסויים</strong>: שילוב MPC עם בלוקצ'יין כדי לאפשר חישוב פרטי <a href="https://arxiv.org/abs/1506.03471" target="_blank" rel="noopener">[1]</a> <a href="https://ieeexplore.ieee.org/document/7163223" target="_blank" rel="noopener">[2]</a>.</li>
+              <li>העבודה צוטטה אלפי פעמים ומוכרת כנקודת המוצא לתחום החוזים החכמים החסויים <a href="https://www.wired.com/2015/06/mits-bitcoin-inspired-enigma-lets-computers-mine-encrypted-data/" target="_blank" rel="noopener">[3]</a>.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>חוזים חכמים חסויים</h3>
+            <p><strong>Secret Network</strong> הפכה את ההצעה למערכת חיה:</p>
+            <ul class="list">
+              <li><strong>רשת ראשונה</strong> עם קלטים, פלטים ומצב מוצפנים — מבוססת TEE.</li>
+              <li>הראתה שחישוב חסוי יכול לפעול בקנה-מידה של בלוקצ'יין; מאז TEEs אומצו רחב ב-Web3.</li>
+              <li>סיקורים נבחרים:
+                <a href="https://www.coindesk.com/business/2022/01/19/privacy-focused-blockchain-secret-network-announces-400m-in-ecosystem-funding" target="_blank" rel="noopener">[4]</a>
+                <a href="https://www.calcalistech.com/ctech/articles/0%2C7340%2CL-3927541%2C00.html" target="_blank" rel="noopener">[5]</a>
+                <a href="https://blockworks.co/news/secret-network-announces-400m-ecosystem-funding-reveals-big-name-investors" target="_blank" rel="noopener">[6]</a>.
+              </li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>תרבות ואימוץ</h3>
+            <ul class="list">
+              <li><em>Pulp Fiction Original Manuscript</em> — NFTs מוצפנים עם קוונטין טרנטינו — סיקור עולמי
+                <a href="https://www.bloomberg.com/news/articles/2021-11-02/tarantino-to-auction-seven-unseen-pulp-fiction-scenes-as-nfts" target="_blank" rel="noopener">[7]</a>
+                <a href="https://fortune.com/2021/11/02/pulp-fiction-nfts-quentin-tarantino-unreleased-content/" target="_blank" rel="noopener">[8]</a>.
+              </li>
+              <li><em>KillRoy Was Here</em> של קווין סמית' — הסרט העלילתי הראשון שהוטבע כ-NFT
+                <a href="https://deadline.com/2022/04/kevin-smith-partners-with-legendao-on-killroy-was-here-nft-release-1234995297/" target="_blank" rel="noopener">[9]</a>.
+              </li>
+              <li>SecretSwap — AMM ממוקד פרטיות, עמיד ל-front-running ו-MEV; מיליארדי $ בנפח.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="interests" class="section container">
+        <h2>תחומי עניין נוכחיים</h2>
+        <ul class="list">
+          <li><strong>FHE (הצפנה הומומורפית מלאה)</strong> לחוזים חכמים — הופך חישוב חסוי למרכיב קומפוזבילי באקוסיסטם של את'ריום.</li>
+          <li><strong>AI שומר פרטיות</strong> — טרנספורמרים מאובטחים ואינפרנס פרטי על נתונים מוצפנים/רגישים.</li>
+        </ul>
+      </section>
+
+      <section id="research" class="section container">
+        <h2>מחקרים ופרסומים נבחרים</h2>
+        <ul class="list">
+          <li>
+            <a href="https://arxiv.org/abs/1506.03471" target="_blank" rel="noopener">
+              Enigma: Decentralized Computation Platform with Guaranteed Privacy
+            </a> (arXiv, 2015)
+          </li>
+          <li>
+            <a href="https://ieeexplore.ieee.org/document/7163223" target="_blank" rel="noopener">
+              Decentralizing Privacy: Using Blockchain to Protect Personal Data
+            </a> (IEEE Security &amp; Privacy Workshops, 2015)
+          </li>
+          <li>
+            <a href="https://dspace.mit.edu/bitstream/handle/1721.1/157739/zyskind-guyz-PhD-MAS-2024-thesis.pdf?isAllowed=y&amp;sequence=1" target="_blank" rel="noopener">
+              Secure Computation in Decentralized Systems
+            </a> (MIT PhD thesis, 2024)
+          </li>
+          <li>
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3658644.3670292" target="_blank" rel="noopener">
+              High-Throughput Three-Party DPFs with Applications to ORAM and Digital Currencies
+            </a> (ACM CCS, 2024)
+          </li>
+          <li>
+            <a href="https://eprint.iacr.org/2023/832" target="_blank" rel="noopener">
+              Unstoppable wallets: Chain-assisted threshold ECDSA and its applications
+            </a> (ACM AsiaCCS, 2024)
+          </li>
+          <li>
+            <a href="https://dl.acm.org/doi/10.1145/3659463.3660031" target="_blank" rel="noopener">
+              FHE-Rollups: Scaling Confidential Smart Contracts on Ethereum and Beyond
+            </a> (ACM BSCI, 2024)
+          </li>
+          <li>
+            <a href="https://arxiv.org/pdf/2311.12955" target="_blank" rel="noopener">
+              Don't Forget Private Retrieval: Distributed Private Similarity Search for Large Language Models
+            </a> (PPAI, 2024)
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=VA5VktEAAAAJ" target="_blank" rel="noopener">
+              רשימה מלאה ב-Google Scholar →
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="press" class="section container">
+        <h2>ארכיון תקשורת</h2>
+        <div class="filters">
+          <input type="text" id="q" placeholder="חיפוש לפי כותרת… (עברית/אנגלית)" aria-label="חיפוש בארכיון לפי כותרת">
+          <label>שנה
+            <select id="year">
+              <option value="">הכל</option>
+            </select>
+          </label>
+          <label>שפה
+            <select id="lang">
+              <option value="">הכל</option>
+              <option value="he">עברית</option>
+              <option value="en">אנגלית</option>
+            </select>
+          </label>
+          <button class="btn small" onclick="resetFilters()">איפוס</button>
+        </div>
+        <ul id="press-list" class="list press-list"></ul>
+
+        <!-- Press data (same dataset; UI supports he/en filtering) -->
+        <script>
+          window.__PRESS = [
+            ["הוא מעסיק 10 עובדים בלבד אבל המטבע שלו כבר שווה כמו יוניקורן","2021-11-24","https://www.globes.co.il/news/article.aspx?did=1001391950","he"],
+            ["בעוד שבוע וחצי: המכירה הפומבית של ה-NFT של טרנטינו מתחילה","2022-01-05","https://www.globes.co.il/news/article.aspx?did=1001397473","he"],
+            ["התקופה בקריפטו מזכירה את אפל בימים המוקדמים","2022-01-23","https://www.themarker.com/technation/2022-01-23/ty-article/.premium/0000017f-dc8b-db5a-a57f-dceb1b520000","he"],
+            ["ספרות לא זולה: טרנטינו מכר סצנה… כ-NFT","2022-01-24","https://www.themarker.com/markets/2022-01-24/ty-article/.premium/0000017f-dc11-db22-a17f-fcb12d5c0000","he"],
+            ["לראשונה בעולם: סרט באורך מלא יופץ כ-Secret NFT","2022-04-06","https://www.calcalist.co.il/world_news/article/byqaozixq","he"],
+            ["הכירו את הסרט הראשון שיוטבע כ-NFT","2022-04-06","https://www.ynet.co.il/digital/technews/article/rkfoijjx5","he"],
+            ["טרנטינו ימכור סצנות… בקובצי NFT","2021-11-03","https://www.ynet.co.il/entertainment/article/r1n5ztyvf","he"],
+            ["טרנטינו מוכר עכשיו NFT של ‘ספרות זולה’ בעזרת סטארטאפ ישראלי","2022-01-05","https://www.geektime.co.il/quentin-tarantino-pulp-fiction-nfts/","he"],
+            ["טרנטינו מחדש: קטעים מהתסריט… יימכרו כ-NFT","2022-01-05","https://www.pc.co.il/news/353723/","he"],
+            ["Secret Network announces $400 million in ecosystem funding","2022-01-19","https://www.calcalistech.com/ctech/articles/0%2C7340%2CL-3927541%2C00.html","en"],
+            ["Fhenix raises $15M Series A to bring confidentiality to Ethereum","2024-06-16","https://www.calcalistech.com/ctechnews/article/rj6kurnbc","en"],
+            ["Event recap: Secret/NFTs","2022-03-02","https://www.themarker.com/labels/investing/2022-03-02/ty-article-labels/0000017f-f88b-d2d5-a9ff-f88f77ca0000","he"],
+            ["NFTs in film; quotes Zyskind","2022-03-19","https://www.haaretz.co.il/gallery/cinema/2022-03-19/ty-article-magazine/.premium/00000180-5bd4-dee0-afd6-7bdd51ad0000","he"],
+            ["Secret Network ecosystem investments","2022-01-20","https://www.talniri.co.il/marketnews/article.asp?id=107253&mp=49","he"],
+            ["Fhenix raises $7M Seed for confidential blockchain","2023-09-26","https://www.calcalistech.com/ctechnews/article/hyyvm3tkp","en"],
+            ["MIT’s Bitcoin-Inspired ‘Enigma’ Lets Computers Mine Encrypted Data","2015-06-30","https://www.wired.com/2015/06/mits-bitcoin-inspired-enigma-lets-computers-mine-encrypted-data/","en"],
+            ["MIT Media Lab Project Enigma Enables Blockchain-Based Encrypted Data Storage","2015-07-09","https://bitcoinmagazine.com/business/mit-media-lab-project-enigma-enables-blockchain-based-encrypted-data-storage-1436392277","en"],
+            ["MIT’s ‘Enigma’ Uses Bitcoin Blockchain to Create Privacy-Enhancing… Platform","2015-07-24","https://cointelegraph.com/news/mits-enigma-uses-blockchain-to-create-privacy-enhancing-decentralized-computation-platform","en"],
+            ["How Blockchain Can Help Fight Cyberattacks","2016-12-05","https://techcrunch.com/2016/12/05/how-blockchain-can-help-fight-cyberattacks/","en"],
+            ["Enigma Launches Second Testnet for ‘Secret Contract’ Blockchain","2019-06-11","https://www.coindesk.com/markets/2019/06/11/enigma-launches-second-testnet-for-secret-contract-blockchain","en"],
+            ["Accelerating the Future of Privacy Through SmartData Agents","2018-11-03","https://www.forbes.com/sites/cognitiveworld/2018/11/03/accelerating-the-future-of-privacy-through-smartdata-agents/","en"],
+            ["The Best Way to Avoid Data Leaks and Privacy Scandals: Don’t Own Consumer Data","2019-04-24","https://www.forbes.com/sites/joetoscano1/2019/04/24/the-best-way-to-avoid-data-leaks-and-privacy-scandals-dont-own-consumer-data/","en"],
+            ["Tarantino to Auction Seven Unseen Pulp Fiction Scenes as NFTs","2021-11-02","https://www.bloomberg.com/news/articles/2021-11-02/tarantino-to-auction-seven-unseen-pulp-fiction-scenes-as-nfts","en"],
+            ["Quentin Tarantino Revealed as Iconic Artist Behind First-Ever Secret NFTs","2021-11-02","https://www.globenewswire.com/news-release/2021/11/02/2325448/0/en/Quentin-Tarantino-Revealed-as-Iconic-Artist-Behind-First-Ever-Secret-NFTs-Showcasing-Never-Before-Seen-Work-Revealed-Only-to-NFT-Owner.html","en"],
+            ["Privacy-Focused Secret Network Announces $400M in Ecosystem Funding","2022-01-19","https://www.coindesk.com/business/2022/01/19/privacy-focused-blockchain-secret-network-announces-400m-in-ecosystem-funding","en"],
+            ["Secret Network Announces $400M Ecosystem Funding; Big-Name Investors","2022-01-19","https://blockworks.co/news/secret-network-announces-400m-ecosystem-funding-reveals-big-name-investors","en"],
+            ["Kevin Smith to Issue Comedy-Horror Film as NFTs on Secret Network","2022-04-06","https://www.coindesk.com/business/2022/04/06/kevin-smith-to-issue-comedy-horror-film-as-nfts-on-secret-network","en"],
+            ["Quentin Tarantino Brings NFTs to Pulp Fiction","2021-11-05","https://coinmarketcap.com/academy/article/quentin-tarantino-brings-nfts-to-pulp-fiction","en"],
+            ["Enigma’s Guy Zyskind: ‘I’m Pro-Whatever Kind of Blockchain…’","2018-07-19","https://cointelegraph.com/news/enigma-s-guy-zyskind-i-m-pro-whatever-kind-of-blockchain-fits-decentralization-ideals","en"],
+            ["Protocol Village: Fhenix encrypted rollup stack","2023-11-22","https://www.coindesk.com/tech/2023/11/22/the-protocol-czs-out-altmans-in-and-krakens-sued","en"],
+            ["Protocol Village: Fhenix x EigenLayer FHE coprocessors","2024-04-04","https://www.coindesk.com/tech/2024/03/27/protocol-village","en"],
+            ["Fhenix raises $7M seed led by Multicoin & Collider","2023-09-26","https://www.theblock.co/post/252931/fhenix-seed-multicoin-capital","en"],
+            ["Fhenix Raises $7 Million to Aid Confidential Blockchain Initiative","2023-09-26","https://www.nasdaq.com/articles/fhenix-raises-%247-million-to-aid-confidential-blockchain-initiative","en"],
+            ["Fhenix… raises $15M Series A","2024-06-04","https://techstartups.com/2024/06/04/fhenix-a-privacy-focused-ethereum-layer-2-tech-startup-raises-7m-seed-round-for-confidential-blockchain/","en"],
+            ["How Secret Network’s Privacy-as-a-Service Unlocks Web3…","2023-06-27","https://www.coindesk.com/sponsored-content/how-secret-networks-privacy-as-a-service-unlocks-web3-for-the-next-billion-users","en"],
+            ["Enigma’s Privacy Protocol Solves Key Blockchain Issues","2019-04-22","https://blokt.com/interview/enigmas-privacy-protocol-solves-key-blockchain-issues-preventing-global-adoption","en"],
+            ["The Quentin Tarantino–Miramax Dispute…","2021-11-17","https://time.com/6120878/tarantino-nft-lawsuit/","en"],
+            ["Quentin Tarantino to release 7 Pulp Fiction NFTs with secret unreleased content","2021-11-02","https://fortune.com/2021/11/02/pulp-fiction-nfts-quentin-tarantino-unreleased-content/","en"],
+            ["Beyond the Elephant in the Room MIT Media Lab Southeast Asia Forum 2022","2022-12-23","https://techsauce.co/en/tech-and-biz/what-happened-in-mit-media-lab-southeast-asia-forum-2022-beyond-the-elephant-in-the-room","en"],
+            ["Kevin Smith Partners With Secret Network’s Legendao…","2022-04-06","https://deadline.com/2022/04/kevin-smith-partners-with-legendao-on-killroy-was-here-nft-release-1234995297/","en"]
+          ].map(([title,date,url,lang])=>({title,date,url,lang}));
+        </script>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> גיא זיסקינד.</p>
+      </div>
+    </footer>
+
+    <script src="../assets/script.js" defer></script>
+  </body>
+</html>

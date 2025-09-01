@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zyskind;Guy;;;
+FN:Guy Zyskind
+TITLE:Founder, Fhenix
+EMAIL;TYPE=INTERNET,PREF:hello@yourdomain.com
+URL:https://example.com/
+END:VCARD
