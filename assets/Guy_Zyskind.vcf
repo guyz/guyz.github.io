@@ -2,7 +2,8 @@ BEGIN:VCARD
 VERSION:3.0
 N:Zyskind;Guy;;;
 FN:Guy Zyskind
-TITLE:Founder, Fhenix
-EMAIL;TYPE=INTERNET,PREF:hello@yourdomain.com
-URL:https://example.com/
+TITLE:Assistant Professor, University of Miami; Founder, Fhenix
+EMAIL;TYPE=INTERNET,PREF:guy@fhenix.io
+URL:https://guyzyskind.com/
+X-SOCIALPROFILE;TYPE=twitter:https://x.com/GuyZys
 END:VCARD

@@ -2,15 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://example.com/he/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/"/>
+    <loc>https://guyzyskind.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://guyzyskind.com/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://guyzyskind.com/he/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://guyzyskind.com/"/>
   </url>
   <url>
-    <loc>https://example.com/he/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://example.com/he/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/"/>
+    <loc>https://guyzyskind.com/he/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://guyzyskind.com/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://guyzyskind.com/he/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://guyzyskind.com/"/>
+  </url>
+  <url>
+    <loc>https://guyzyskind.com/join/</loc>
   </url>
 </urlset>
