@@ -140,7 +140,7 @@
         </button>
         <ul id="navmenu" class="navmenu">
           <li><a href="#research">מחקר</a></li>
-          <li><a href="#work">עבודה משמעותית</a></li>
+          <li><a href="#work">עבודה נבחרת</a></li>
           <li><a href="#publications">פרסומים</a></li>
           <li><a href="#press">תקשורת</a></li>
           <li class="lang"><a href="/" hreflang="en" rel="alternate">EN</a></li>
@@ -155,7 +155,7 @@
         <div class="wrap">
           <div class="hero-grid">
             <div class="hero-copy">
-              <p class="eyebrow">פרופסור־עוזר · הנדסת חשמל ומחשבים · אוניברסיטת מיאמי</p>
+              <p class="eyebrow">פרופסור־עוזר להנדסת חשמל ומחשבים · אוניברסיטת מיאמי · PhD מ-MIT · מייסד Fhenix</p>
               <h1 class="hero-name">גיא זיסקינד</h1>
               <p class="hero-thesis">שכבת ה<em class="key">אמון</em> לעולם של סוכני AI.</p>
               <p class="hero-lede">
@@ -163,9 +163,9 @@
                 אנחנו בונים תשתית מאובטחת למוסדות שמביאים נכסים בעלי ערך גבוה לאונצ׳יין.
               </p>
               <p class="hero-lede">
-                הרקע שלי יושב בין מחקר לבניית חברות: הייתי שותף לכתיבת העבודה הראשונה על חוזים חכמים חסויים, ייסדתי חברות
-                תשתית פרטיות שגייסו יותר מ-60 מיליון דולר, ועזרתי להעביר חישוב פרטי ממחקר ב-MIT לרשתות חיות, תשתיות
-                מוסדיות ואפליקציות ציבוריות.
+                הרקע שלי יושב בין מחקר לבניית חברות: ב-MIT הייתי שותף לעבודה מוקדמת על בקרת גישה בבלוקצ׳יין ולהצעה הראשונה
+                לחוזים חכמים חסויים; כמייסד, עזרתי להפוך את הרעיונות האלה לרשתות ייצור, אפליקציות מוצפנות, תשתית FHE, גיבוי
+                הוני של עשרות רבות של מיליוני דולרים ומערכות שאבטחו ערך אונצ׳יין של מיליארדים.
                 <strong>במיאמי אתמקד בבעיה הקשה הבאה: שכבת האמון לעולם שבו סוכני AI מבצעים עסקאות עם סוכני AI אחרים.</strong>
               </p>
               <div class="hero-cta">
@@ -188,10 +188,11 @@
             <p class="eyebrow">מחקר</p>
             <h2 class="section-title">האבטחה של סוכני AI</h2>
             <p class="section-intro">
-              כשעולם התוכנה עובר מאנשים שלוחצים על כפתורים לסוכנים שמבצעים עסקאות עם סוכנים, הרבה מהנחות האבטחה שעליהן
-              נבנה הווב מתחילות לא להתאים. סוכנים יחזיקו מידע ארגוני, יפעילו כלים, ינהלו משא ומתן ויקבלו התחייבויות בין
-              מערכות וארגונים. הקבוצה שלי תחקור את שכבת האמון למצב הזה: איך סוכנים מזדהים, מה מותר להם לחשוף או לשמור, ואיך
-              אפשר לבדוק בדיעבד מה באמת קרה. השאלות רחבות במכוון. כמה כיוונים שאני רוצה לחקור:
+              כשעולם התוכנה עובר מאנשים שלוחצים על כפתורים לסוכנים שפועלים דרך כלים, הרבה מהנחות האבטחה שעליהן נבנה הווב
+              מתחילות לא להתאים. סוכנים יקראו מידע פרטי ותוכן לא-אמין באותו תהליך, יפעילו API, ישנו מסדי נתונים, ינהלו משא
+              ומתן עם סוכנים אחרים ויטענו טענות על מה שעשו. אני רוצה לחקור את שכבת האמון סביב מערכות כאלה: הפרוטוקולים,
+              המדידות, עקבות הביקורת, גבולות המידע וערוצי הדיווח שמאפשרים להבין מתי סוכן עובד, מתי הוא נכשל, ועל מה אפשר
+              להסתמך.
             </p>
           </div>
           <div class="directions reveal">
@@ -202,34 +203,37 @@
                  אחרי עסקה? המטרה היא שיתוף פעולה בלי להניח שהסוכן השני פועל לטובתך.</p>
             </article>
             <article class="direction">
-              <p class="tag">אימות</p>
-              <h3>ראיות להתנהגות</h3>
-              <p>האם סוכן יכול לספק ראיה שימושית לאיזה מידע הוא קרא, אילו כלים הוא הפעיל והאם הוא נשאר בתוך המדיניות, בלי
-                 לחשוף את התוכן הפרטי עצמו? מעניינת אותי יכולת ביקורת שמחזיקה גם מול שימוש יריבי.</p>
+              <p class="tag">דיווח על כשלים</p>
+              <h3>מכשלי AI לראיות שימושיות</h3>
+              <p>כאשר סוכן מדליף מידע, נותן הוראות מזיקות או מבצע פעולה שגויה, מה דו"ח טוב צריך לכלול? הבעיות המעניינות
+                 כוללות כשלים שניתן לשחזר, ראיות ששומרות על פרטיות, תיעדוף, ודרכים שבהן חוקרים חיצוניים יכולים לדווח על
+                 בעיות בלי להיתקע באזור אפור משפטי או פלטפורמי.</p>
             </article>
             <article class="direction">
               <p class="tag">גבולות מידע</p>
-              <h3>לשמור מידע ארגוני בתוך הגבולות</h3>
-              <p>איך ארגונים נותנים לסוכנים לעשות עבודה מועילה בלי להדליף קוד מקור, מידע על לקוחות, הרשאות או אסטרטגיה,
-                 במיוחד כשסוכן מפרש הקשר לא נכון, משתף יותר מדי או עובר מניפולציה?</p>
+              <h3>המידע שסוכנים קוראים, זוכרים ומדליפים</h3>
+              <p>סוכנים מטשטשים גבולות בין מידע פנימי, מידע מהווב, הקשר שנשלף, זיכרון ופלט של כלים. לכן מקוריות מידע,
+                 הסכמה, הרעלה, דליפה ובקרת גישה הופכים לשאלות אבטחה מרכזיות, לא לפרטי תיעוד.</p>
             </article>
             <article class="direction">
-              <p class="tag">השפעה חברתית</p>
-              <h3>כשסוכנים משכנעים סוכנים</h3>
-              <p>יכול להיות שסוכני AI רגישים להשפעה יותר מכפי שנדמה, במיוחד כשסוכנים אחרים יכולים למסגר בקשות, להפעיל לחץ,
-                 להתחזות לסמכות או לשתף פעולה זה עם זה. אני רוצה לחקור את מצבי הכשל האלה בצורה מדויקת.</p>
+              <p class="tag">בנצ׳מרקים</p>
+              <h3>אמינות מעבר לציוני לידרבורד</h3>
+              <p>דיוק לא מספיק לסוכנים שמוציאים כסף, עורכים קוד או נוגעים ברשומות של משתמשים. בנצ׳מרקים וביקורות מועילים
+                 צריכים לגלות דליפת מידע, התאמת-יתר, עלות, סיכוני זנב, שחזוריות והפער בין יכולת שנראית מרשימה לבין פריסה
+                 אמינה.</p>
             </article>
             <article class="direction">
-              <p class="tag">הגנה על משתמשים</p>
-              <h3>שליטה למשתמשים</h3>
-              <p>סוכנים אישיים יחזיקו מידע, מפתחות, העדפות וכוונות. משתמשים יצטרכו להעניק סמכות, לבטל אותה, להבין מה קרה,
-                 ולמנוע מההקשר הפרטי שלהם להפוך לתשתית כללית.</p>
+              <p class="tag">סייבר</p>
+              <h3>שימוש בכלים כמשטח תקיפה</h3>
+              <p>Prompt injection נהיה רציני יותר כשסוכן יכול לגלוש מאחורי לוגין, להפעיל מחבר, להריץ קוד או לדבר עם סוכן אחר.
+                 השאלה היא איך התקפות עוברות דרך הקשר, זיכרון, כלים ופרוטוקולים, ואיך נראית הכלה מעשית.</p>
             </article>
             <article class="direction">
               <p class="tag">AI פתוח</p>
-              <h3>מודלים פתוחים ומבוזרים</h3>
-              <p>מודלים פתוחים ותשתיות מבוזרות יכולים להפוך יכולות AI לנגישות ושקופות יותר לבדיקה. השאלה המחקרית היא איך
-                 מקבלים את היתרונות האלה בלי לוותר על פרטיות, אחריותיות או אבטחה.</p>
+              <h3>מודלים פתוחים, תשתית ציבורית ומלכודות</h3>
+              <p>מודלים פתוחים ותשתיות מבוזרות יכולים להפוך AI לבדיקה ולריכוזי פחות. החלק הקשה הוא לגרום לזה להיות נכון
+                 בפועל: לעקוב אחרי שושלת של מידע ומודלים, להימנע מתיאטרון של בנצ׳מרקים, ולהוסיף פרטיות ואחריותיות בלי לבנות
+                 מחדש מערכת סגורה בשם אחר.</p>
             </article>
           </div>
         </div>
@@ -242,9 +246,9 @@
             <div>
               <h2 id="recruit-h">אפשרויות לדוקטורנטים, פוסט-דוקטורנטים ומשתפי פעולה</h2>
               <p>
-                התאמה טובה היא אנשים שיודעים לעבוד בזהירות בין תחומים, להתווכח ביושר עם הבעיה, ולהראות ראיות לכך שהם משתפי
-                פעולה טובים: מאמר, ריפו, מערכת, דמו, טקסט רציני או פרויקט שאנשים אחרים נשענו עליו. אני שוקל דוקטורנטים,
-                פוסט-דוקטורנטים, סטודנטים אורחים, מתמחים ומשתפי פעולה למחקר.
+                אני מחפש אנשים שכבר הוכיחו שהם יודעים להתחיל ולהוביל דברים בעצמם, עם ראיות ברורות למצוינות: מי שבנו מערכות,
+                כתבו מאמרים חזקים, מצאו בעיות חשובות או דחפו פרויקטים קדימה בלי לחכות שיגידו להם מה לעשות. אני שוקל
+                דוקטורנטים, פוסט-דוקטורנטים, סטודנטים אורחים, מתמחים ומשתפי פעולה למחקר.
               </p>
               <div class="roles">
                 <span class="role">דוקטורט · אביב וסתיו 2027</span>
@@ -262,44 +266,26 @@
         </div>
       </section>
 
-      <!-- SIGNATURE WORK -->
+      <!-- SELECTED WORK -->
       <section id="work" class="section">
         <div class="wrap">
           <div class="section-head reveal">
-            <p class="eyebrow">עבודה משמעותית</p>
-            <h2 class="section-title">מחקר שהפך לחברות, רשתות ומערכות חיות</h2>
+            <p class="eyebrow">עבודה נבחרת</p>
+            <h2 class="section-title">העבודה שעליה אני בונה</h2>
             <p class="section-intro">
-              בעשור האחרון העבודה שלי התמקדה בשאלה פשוטה: איך מערכות יכולות לחשב, לבצע עסקאות ולתאם פעולה בלי לחשוף את
-              המידע הרגיש שמתחת? השאלה הזו הובילה ממאמרי מחקר ב-MIT לחברות ממומנות, רשתות חיות, וכעת ל-AI סוכן.
+              לפני מיאמי, עבדתי במשך עשור על מערכות שמחשבות, מתאמות ומבצעות עסקאות בלי לחשוף את המידע שמתחת. חלק מזה נשאר
+              מאמרים. חלק מזה הפך לחברות, רשתות ואפליקציות שאנשים השתמשו בהן.
             </p>
-          </div>
-          <div class="proof-grid reveal" aria-label="עדויות נבחרות למחקר ולבניית חברות">
-            <div class="proof-item">
-              <strong dir="ltr">$60M+</strong>
-              <span>צוותים מייסדים שהובלתי גייסו יותר מ-60 מיליון דולר לבניית מערכות חישוב שומרות פרטיות.</span>
-            </div>
-            <div class="proof-item">
-              <strong>ביצוע בקנה מידה של רשת</strong>
-              <span>Secret Network הגיעה לשווי שוק בקנה מידה של יוניקורן ובהמשך הכריזה על יוזמת אקוסיסטם של 400 מיליון דולר לבונים.</span>
-            </div>
-            <div class="proof-item">
-              <strong>אלפי ציטוטים</strong>
-              <span>העבודה המוקדמת על חישוב מבוזר פרטי וחוזים חכמים חסויים הפכה לנקודת ייחוס מחקרית.</span>
-            </div>
-            <div class="proof-item">
-              <strong>פריסות ציבוריות</strong>
-              <span>עבודה שהובלתי הגיעה לרשתות מפתחים, תשתיות מוסדיות ופרויקטי מדיה מוצפנים שסוקרו ב-Bloomberg, Fortune ו-Deadline.</span>
-            </div>
           </div>
           <div class="timeline reveal">
             <div class="tl-item">
               <div class="tl-year">2015</div>
               <div class="tl-body">
-                <h3>חישוב חסוי על בלוקצ׳יין</h3>
+                <h3>MIT: בקרת גישה וחוזים חכמים חסויים</h3>
                 <p class="tl-org">MIT · Enigma</p>
-                <p>ב-MIT הייתי שותף להצעה הראשונה לשלב חישוב רב-משתתפים מאובטח עם בלוקצ׳יין: להריץ תוכנות על מידע
-                   שנשאר פרטי, ואז ליישב את התוצאה על רשת ציבורית. קו העבודה הזה צוטט אלפי פעמים והפך לנקודת הפתיחה של
-                   Enigma.</p>
+                <p>ב-MIT עבדתי על שימוש בבלוקצ׳יין לבקרת גישה וכשכבת סליקה לחישוב פרטי. הייתי שותף להצעה הראשונה לחוזים
+                   חכמים חסויים: שילוב של MPC עם בלוקצ׳יין כך שתוכנות ירוצו על מידע פרטי ויפרסמו תוצאות ניתנות לאימות.
+                   העבודה הזו צוטטה אלפי פעמים.</p>
                 <div class="tl-refs">
                   <a href="https://arxiv.org/abs/1506.03471" target="_blank" rel="noopener">מאמר Enigma</a>
                   <a href="https://ieeexplore.ieee.org/document/7163223" target="_blank" rel="noopener">IEEE S&amp;P</a>
@@ -310,10 +296,10 @@
             <div class="tl-item">
               <div class="tl-year">2017</div>
               <div class="tl-body">
-                <h3>רעיון מחקרי הופך לחברה ממומנת</h3>
+                <h3>Enigma: לקחת את המחקר לחברה</h3>
                 <p class="tl-org">Enigma</p>
-                <p>ייסדתי את Enigma כדי להפוך את תוכנית המחקר מ-2015 לפלטפורמת פרטיות מבוזרת. הפרויקט גייס 45 מיליון
-                   דולר והיה אחד הניסיונות המוקדמים להביא חישוב מאובטח למערכות בלוקצ׳יין ציבוריות.</p>
+                <p>ייסדתי את Enigma כדי לקחת את המחקר הזה מחוץ למעבדה. הפרויקט גייס 45 מיליון דולר והיה אחד הניסיונות
+                   הראשונים הרציניים להביא חישוב מאובטח למערכות בלוקצ׳יין ציבוריות.</p>
                 <div class="tl-refs">
                   <a href="https://docs.scrt.network/secret-network-documentation/overview-ecosystem-and-technology/secret-network-overview/history" target="_blank" rel="noopener">היסטוריית Secret</a>
                   <a href="https://www.wired.com/2015/06/mits-bitcoin-inspired-enigma-lets-computers-mine-encrypted-data/" target="_blank" rel="noopener">WIRED</a>
@@ -323,11 +309,11 @@
             <div class="tl-item">
               <div class="tl-year">2020</div>
               <div class="tl-body">
-                <h3>הרשת החיה הראשונה לחוזים חכמים פרטיים</h3>
+                <h3>Secret Network: חוזים חכמים פרטיים בייצור</h3>
                 <p class="tl-org">Secret Network · SCRT Labs</p>
-                <p>הובלתי את ההשקה של Secret Network, הרשת הראשית הראשונה שהריצה חוזים חכמים עם קלטים, פלטים ומצב
-                   מוצפנים. הרשת הגיעה לשווי שוק בקנה מידה של יוניקורן, שימשה לאבטחת ערך של מיליארדים ובהמשך הכריזה על
-                   יוזמת אקוסיסטם של 400 מיליון דולר לבונים.</p>
+                <p>הובלתי את ההשקה של Secret Network, הרשת הראשונה בייצור עם קלטים, פלטים ומצב מוצפנים בחוזים חכמים. בשיא,
+                   הרשת הגיעה לשווי שוק בקנה מידה של יוניקורן, אבטחה ערך אונצ׳יין של מיליארדים ובהמשך הכריזה על יוזמת
+                   אקוסיסטם של 400 מיליון דולר לבונים.</p>
                 <div class="tl-refs">
                   <a href="https://www.coindesk.com/business/2022/01/19/privacy-focused-blockchain-secret-network-announces-400m-in-ecosystem-funding" target="_blank" rel="noopener">CoinDesk · 400M$</a>
                   <a href="https://blockworks.co/news/secret-network-announces-400m-ecosystem-funding-reveals-big-name-investors" target="_blank" rel="noopener">Blockworks</a>
@@ -338,29 +324,42 @@
             <div class="tl-item">
               <div class="tl-year">2021</div>
               <div class="tl-body">
-                <h3>מדיה מוצפנת בתשומת לב ציבורית</h3>
+                <h3>מדיה מוצפנת ו-DeFi פרטי</h3>
                 <p class="tl-org">Secret Network · Tarantino · Kevin Smith</p>
                 <p>‏Secret NFTs השתמשו בהצפנה ובבקרת גישה לפרויקטי מדיה בולטים, כולל חומרים שלא פורסמו מ-<em>Pulp Fiction</em>
-                   של קוונטין טרנטינו ו-<em>KillRoy Was Here</em> של קווין סמית׳. הנקודה לא היתה תווית ה-NFT, אלא היכולת של
-                   רשת ציבורית לטפל בתוכן פרטי עם זכויות וגישה.</p>
+                   של קוונטין טרנטינו ו-<em>KillRoy Was Here</em> של קווין סמית׳. ‏SecretSwap גם הראתה ש-DeFi פרטי יכול להגן
+                   על כוונת מסחר מול front-running ו-MEV.</p>
                 <div class="tl-refs">
                   <a href="https://www.bloomberg.com/news/articles/2021-11-02/tarantino-to-auction-seven-unseen-pulp-fiction-scenes-as-nfts" target="_blank" rel="noopener">Bloomberg</a>
                   <a href="https://fortune.com/2021/11/02/pulp-fiction-nfts-quentin-tarantino-unreleased-content/" target="_blank" rel="noopener">Fortune</a>
                   <a href="https://deadline.com/2022/04/kevin-smith-partners-with-legendao-on-killroy-was-here-nft-release-1234995297/" target="_blank" rel="noopener">Deadline</a>
+                  <a href="https://defiprime.com/secretswap" target="_blank" rel="noopener">SecretSwap</a>
+                </div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-year">2023</div>
+              <div class="tl-body">
+                <h3>Fhenix: ‏FHE לאת׳ריום</h3>
+                <p class="tl-org">Fhenix</p>
+                <p>ייסדתי את Fhenix כדי להביא הצפנה הומומורפית מלאה לאת׳ריום דרך פלטפורמה תואמת EVM לאפליקציות חסויות.
+                   החברה גייסה בערך 25 מיליון דולר ובונה תשתית מאובטחת למוסדות ולמפתחים שעובדים עם נכסים בעלי ערך גבוה
+                   באונצ׳יין.</p>
+                <div class="tl-refs">
+                  <a href="https://www.calcalistech.com/ctechnews/article/hyyvm3tkp" target="_blank" rel="noopener">סיד</a>
+                  <a href="https://www.calcalistech.com/ctechnews/article/rj6kurnbc" target="_blank" rel="noopener">סבב A</a>
+                  <a href="https://www.fhenix.io/" target="_blank" rel="noopener">Fhenix</a>
                 </div>
               </div>
             </div>
             <div class="tl-item">
               <div class="tl-year">2024</div>
               <div class="tl-body">
-                <h3>‏FHE לאת׳ריום</h3>
-                <p class="tl-org">Fhenix · MIT</p>
-                <p>ייסדתי את Fhenix כדי להביא הצפנה הומומורפית מלאה לאת׳ריום, דרך פלטפורמה תואמת EVM לאפליקציות
-                   חסויות. Fhenix גייסה 22 מיליון דולר בסך הכול, כולל סבב A של 15 מיליון דולר בהובלת Hack VC, ובמקביל
-                   השלמתי דוקטורט ב-MIT על חישוב מאובטח במערכות מבוזרות.</p>
+                <h3>דוקטורט ב-MIT</h3>
+                <p class="tl-org">MIT</p>
+                <p>הגנתי על עבודת הדוקטורט שלי, <em dir="ltr">Secure Computation in Decentralized Systems</em>, על מערכות חסויות
+                   וניתנות לאימות לרשתות פתוחות.</p>
                 <div class="tl-refs">
-                  <a href="https://www.calcalistech.com/ctechnews/article/rj6kurnbc" target="_blank" rel="noopener">סבב A</a>
-                  <a href="https://thedefiant.io/news/press-releases/fhenix-raises-15m-and-launches-testnet-of-confidentiality-focused-l2" target="_blank" rel="noopener">22M$ בסך הכול</a>
                   <a href="https://dspace.mit.edu/bitstream/handle/1721.1/157739/zyskind-guyz-PhD-MAS-2024-thesis.pdf?isAllowed=y&amp;sequence=1" target="_blank" rel="noopener">תזת ה-PhD</a>
                 </div>
               </div>
@@ -368,11 +367,10 @@
             <div class="tl-item is-now">
               <div class="tl-year">2026</div>
               <div class="tl-body">
-                <h3>ממערכות חסויות למערכות סוכנים</h3>
+                <h3>מיאמי: סוכני AI ושכבת האמון</h3>
                 <p class="tl-org">אוניברסיטת מיאמי · הנדסת חשמל ומחשבים</p>
-                <p>מצטרף לאוניברסיטת מיאמי כפרופסור־עוזר להנדסת חשמל ומחשבים. קבוצת המחקר ממשיכה את אותה שאלה לתוך
-                   עולם ה-AI: כאשר סוכנים פועלים, מתאמים ומבצעים עסקאות, מה נדרש כדי שההתנהגות שלהם תהיה אמינה מספיק
-                   עבור משתמשים וארגונים אמיתיים?</p>
+                <p>אני מצטרף לאוניברסיטת מיאמי כפרופסור־עוזר להנדסת חשמל ומחשבים. הקבוצה החדשה תחקור אילו ראיות, בקרות
+                   ופרוטוקולים נדרשים לפני שמשתמשים וארגונים יכולים לתת לסוכני AI לפעול בשמם.</p>
                 <div class="tl-refs">
                   <a href="/join/">אפשרויות מחקר →</a>
                 </div>
@@ -390,6 +388,20 @@
             <h2 class="section-title">מחקר נבחר</h2>
           </div>
           <div class="pubs reveal">
+            <div class="pub">
+              <span class="pub-year">2026</span>
+              <span>
+                <a class="pub-title" href="https://eprint.iacr.org/2025/2321" target="_blank" rel="noopener" dir="ltr">High-Precision Exact FHE Made Simple, General, and Fast</a>
+                <span class="pub-venue" dir="ltr">CRYPTO 2026 (accepted)</span>
+              </span>
+            </div>
+            <div class="pub">
+              <span class="pub-year">2025</span>
+              <span>
+                <a class="pub-title" href="https://dl.acm.org/doi/10.1145/3719027.3744884" target="_blank" rel="noopener" dir="ltr">High-Throughput Universally Composable Threshold FHE Decryption</a>
+                <span class="pub-venue" dir="ltr">ACM CCS 2025 · Distinguished Paper Award</span>
+              </span>
+            </div>
             <div class="pub">
               <span class="pub-year">2024</span>
               <span>
@@ -448,9 +460,9 @@
       <section id="press" class="section">
         <div class="wrap">
           <div class="section-head reveal">
-            <p class="eyebrow">בתקשורת</p>
-            <h2 class="section-title">ארכיון תקשורת</h2>
-            <p class="section-intro">עשור של סיקור בטכנולוגיה, פיננסים ותרבות, בעברית ובאנגלית.</p>
+            <p class="eyebrow">מדיה</p>
+            <h2 class="section-title">תקשורת, פודקאסטים והרצאות</h2>
+            <p class="section-intro">סיקור, ראיונות והרצאות ציבוריות בטכנולוגיה, פיננסים ותרבות, בעברית ובאנגלית.</p>
           </div>
           <div class="reveal">
             <div class="filters">
@@ -473,6 +485,16 @@
 
         <script>
           window.__PRESS = [
+            ["Fhenix Snaps Up Sunscreen in a Bid to Bring Real Privacy to Ethereum","2026-07-02","https://coinmarketcap.com/community/articles/6a466a0915b5ca649293e75d/","en"],
+            ["Fhenix: Building the Future of Confidential Finance","2026-06-29","https://www.blocmates.com/articles/fhenix-building-the-future-of-confidential-finance","en"],
+            ["11 FHE Protocols To Keep Tabs On","2026-01-27","https://www.blocmates.com/articles/11-fhe-protocols-to-keep-tabs-on","en"],
+            ["Fhenix Launches Fhenix402, Bringing Private Micropayments to Base's x402 Standard","2025-12-17","https://chainwire.org/2025/12/17/fhenix-launches-fhenix402-bringing-private-micropayments-to-bases-x402-standard/","en"],
+            ["Scaling FHE for Global-Scale Private DeFi","2025-12-12","https://www.youtube.com/watch?v=zdrvIVYaxEU","en"],
+            ["When FHE meets MPC: scaling threshold decryption with Fhenix at the Zama CoFHE Shop","2025-11-28","https://www.youtube.com/watch?v=y92fanrqyBc","en"],
+            ["Fhenix strategic investment from BIPROGY & TransLink Capital","2025-10-30","https://www.fintechobserver.com/fhenix-announces-strategic-investment-from-biprogy-translink-capital-accelerates-entry-into-japanese-market/","en"],
+            ["Fhenix: Bringing Private Computation to Web3 with Arbitrum","2025-05-01","https://blog.arbitrum.io/fhenix-private-computation/","en"],
+            ["What Is The Big FHE Unlock? With Guy Zyskind","2024-12-20","https://www.youtube.com/watch?v=wVWTF-gAkxA","en"],
+            ["Guy Itzhaki & Guy Zyskind: Fhenix - FHE-powered End-to-End Encrypted Ethereum L2","2024-01-12","https://poddtoppen.se/podcast/792338939/epicenter-learn-about-crypto-blockchain-ethereum-bitcoin-and-distributed-technologies/guy-itzhaki-guy-zyskind-fhenix-fhe-powered-end-to-end-encrypted-ethereum-l2","en"],
             ["הוא מעסיק 10 עובדים בלבד אבל המטבע שלו כבר שווה כמו יוניקורן","2021-11-24","https://www.globes.co.il/news/article.aspx?did=1001391950","he"],
             ["בעוד שבוע וחצי: המכירה הפומבית של ה-NFT של טרנטינו מתחילה","2022-01-05","https://www.globes.co.il/news/article.aspx?did=1001397473","he"],
             ["התקופה בקריפטו מזכירה את אפל בימים המוקדמים","2022-01-23","https://www.themarker.com/technation/2022-01-23/ty-article/.premium/0000017f-dc8b-db5a-a57f-dceb1b520000","he"],
