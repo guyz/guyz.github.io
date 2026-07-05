@@ -172,7 +172,7 @@ ul{margin:0;padding:0;list-style:none}
     radial-gradient(60% 55% at 82% 8%,var(--accent-soft),transparent 70%),
     radial-gradient(50% 45% at 0% 100%,color-mix(in srgb,var(--accent) 8%,transparent),transparent 70%)}
 .hero .wrap{position:relative;z-index:1}
-.hero-grid{display:grid;grid-template-columns:1.5fr .95fr;gap:clamp(1.8rem,4vw,3.5rem);align-items:center}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.95fr);gap:clamp(1.8rem,4vw,3.5rem);align-items:start}
 .hero-name{font-size:var(--t-5);font-weight:600;margin:.2rem 0 0;line-height:.98}
 .hero-thesis{font-size:var(--t-3);font-weight:400;color:var(--fg-dim);margin:1.3rem 0 0;max-width:20ch;line-height:1.16}
 .hero-thesis .key{font-style:italic;color:var(--accent)}
@@ -181,14 +181,17 @@ ul{margin:0;padding:0;list-style:none}
 .hero-lede strong{color:var(--fg-dim)}
 .hero-cta{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.8rem}
 
-.portrait{position:relative;justify-self:end;width:100%;max-width:360px}
+.portrait{position:relative;justify-self:end;width:100%;max-width:360px;margin:0}
 .portrait img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius);
   border:1px solid var(--border-strong);box-shadow:var(--shadow)}
 .portrait figcaption{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;
   color:var(--muted);margin-top:.7rem;display:flex;align-items:center;gap:.5rem}
 .portrait figcaption::before{content:"";width:.9rem;height:1px;background:var(--border-strong)}
 
-@media (max-width:860px){
+@media (min-width:761px){
+  .portrait{margin-top:clamp(3rem,5vw,4rem)}
+}
+@media (max-width:760px){
   .hero-grid{grid-template-columns:1fr;gap:2rem}
   .portrait{order:-1;justify-self:start;max-width:210px}
   .hero-thesis{max-width:24ch}
@@ -336,4 +339,4 @@ ul{margin:0;padding:0;list-style:none}
 [dir="rtl"] .direction .tag,[dir="rtl"] .tl-org,[dir="rtl"] .role-card .role-when,
 [dir="rtl"] .footer-links a{letter-spacing:0}
 [dir="rtl"] .portrait{justify-self:start}
-@media (max-width:860px){[dir="rtl"] .portrait{justify-self:end}}
+@media (max-width:760px){[dir="rtl"] .portrait{justify-self:end}}
