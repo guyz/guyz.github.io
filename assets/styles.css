@@ -193,7 +193,8 @@ ul{margin:0;padding:0;list-style:none}
 }
 @media (max-width:760px){
   .hero-grid{grid-template-columns:1fr;gap:2rem}
-  .portrait{order:-1;justify-self:start;max-width:210px}
+  .portrait{order:-1;justify-self:center;width:168px;max-width:168px}
+  .portrait img{border-radius:50%}
   .hero-thesis{max-width:24ch}
 }
 
@@ -339,4 +340,4 @@ ul{margin:0;padding:0;list-style:none}
 [dir="rtl"] .direction .tag,[dir="rtl"] .tl-org,[dir="rtl"] .role-card .role-when,
 [dir="rtl"] .footer-links a{letter-spacing:0}
 [dir="rtl"] .portrait{justify-self:start}
-@media (max-width:760px){[dir="rtl"] .portrait{justify-self:end}}
+@media (max-width:760px){[dir="rtl"] .portrait{justify-self:center}}
