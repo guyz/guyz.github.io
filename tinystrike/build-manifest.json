@@ -150,8 +150,8 @@
     },
     {
       "path": "src/network/multiplayer.js",
-      "bytes": 57131,
-      "sha256": "4ee0e18b11f5cc468e36b5bcfd70f918edd2505b0fb4d66bf82653f94efdc307"
+      "bytes": 59629,
+      "sha256": "88004471c63fa54c3a5dd8298e9025bb04af1072f5b2c58232edbb871b0947cb"
     },
     {
       "path": "src/network/room-directory.js",
