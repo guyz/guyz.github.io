@@ -105,8 +105,8 @@
     },
     {
       "path": "src/audio/audio.js",
-      "bytes": 47523,
-      "sha256": "d82cb29136758b39eb2f93eb56404f8893ad6d07459aacf49d3b0dab73ef2ef5"
+      "bytes": 54583,
+      "sha256": "8c463f1f6b8edacd18861364b2227e8123ef1a34a745c854bc7129d3ff6101f0"
     },
     {
       "path": "src/combat/combat.js",
@@ -155,8 +155,8 @@
     },
     {
       "path": "src/player/player.js",
-      "bytes": 23342,
-      "sha256": "be9f1742e6c4425215567a493f9263c20e12a65ea059aad4915b71f80ba91a8f"
+      "bytes": 24150,
+      "sha256": "7994b153d6ecc2b2d27391eea950c855aceece2df088471914c0418bebab181a"
     },
     {
       "path": "src/player/profile.js",
@@ -165,8 +165,8 @@
     },
     {
       "path": "src/player/spectator.js",
-      "bytes": 7880,
-      "sha256": "f6ca25f598f40b4271c5ecc0b9d16fad7fd7d986bf57058018a6d9aecfc6bd85"
+      "bytes": 8283,
+      "sha256": "54d5cf054ca5640737d87393318bb7d43dd4ec26b7489e304a67f4e49352055a"
     },
     {
       "path": "src/shared/config.js",
@@ -180,8 +180,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 143650,
-      "sha256": "ba5fb9860d0e3f3008ad8e26d0af1cefd0bee6770d39ead8c2d2779bec008a26"
+      "bytes": 145648,
+      "sha256": "81e6b51a1632958c1235aba7aaba0754564e2b9e9707285693e9b16a0fff4424"
     },
     {
       "path": "src/weapons/data.js",
