@@ -155,8 +155,8 @@
     },
     {
       "path": "src/player/player.js",
-      "bytes": 24150,
-      "sha256": "7994b153d6ecc2b2d27391eea950c855aceece2df088471914c0418bebab181a"
+      "bytes": 24634,
+      "sha256": "6c4235b2846a9a45684ef8a41674e594bdac65fd59028bafe1480bc332a66211"
     },
     {
       "path": "src/player/profile.js",
