@@ -1,0 +1,282 @@
+{
+  "formatVersion": 1,
+  "generator": "tools/build-pages.mjs",
+  "app": "tiny-strike",
+  "threeVersion": "0.166.1",
+  "endpoints": {
+    "leaderboard": "https://tiny-strike-service.guyz-apps.workers.dev/api/leaderboard",
+    "websocket": "wss://tiny-strike-service.guyz-apps.workers.dev/ws"
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/models/soldier_ct.glb",
+      "bytes": 1006048,
+      "sha256": "5005e5837ea909e57d9309565aedb4c0a59a426248e9804186a86704c0e33b33"
+    },
+    {
+      "path": "assets/models/soldier_t.glb",
+      "bytes": 950136,
+      "sha256": "f8004932a5d6a401499e31a701638d1ea10d47478e39d142fd7e6b71f1aa2e27"
+    },
+    {
+      "path": "assets/models/viewmodels/ak47.glb",
+      "bytes": 77928,
+      "sha256": "10cb53dc7af80ecc6737d257026e14c808868f88db206c049e172b5048280886"
+    },
+    {
+      "path": "assets/models/viewmodels/awp.glb",
+      "bytes": 139200,
+      "sha256": "969843cecb93d114b162b7847aaf8fa688b1a561b24e4ce89f99ee5fd5088fed"
+    },
+    {
+      "path": "assets/models/viewmodels/deagle.glb",
+      "bytes": 78952,
+      "sha256": "925f17736facef29451eb84a82122381e1d6abd5545a496aecc9316f3b34fe95"
+    },
+    {
+      "path": "assets/models/viewmodels/flashbang.glb",
+      "bytes": 104044,
+      "sha256": "e5a5ad1187715962989527ce122cc5f331e906ec190774e281278dd4da8933c5"
+    },
+    {
+      "path": "assets/models/viewmodels/glock.glb",
+      "bytes": 78684,
+      "sha256": "062b5f7a6abb4befd3370fc03fc3a4f559799a8bcad1c843b5775acb9f9cfc34"
+    },
+    {
+      "path": "assets/models/viewmodels/hegrenade.glb",
+      "bytes": 82592,
+      "sha256": "82d44075a51f0565970b0498b443b20ca2e993f38d3f8f75b3ad9dc19b7e3094"
+    },
+    {
+      "path": "assets/models/viewmodels/knife.glb",
+      "bytes": 46276,
+      "sha256": "1a483ef97f34d378de58386d4abbc66fb9cf662976e0b77f78f4fb1d194559ac"
+    },
+    {
+      "path": "assets/models/viewmodels/m4a1.glb",
+      "bytes": 87956,
+      "sha256": "529d7c1ad7a3aa1ae51dff90f08b238967459ed797d61d95a1e9ee1a5187cb7d"
+    },
+    {
+      "path": "assets/models/viewmodels/mp5.glb",
+      "bytes": 78596,
+      "sha256": "ed1aa2c4b3fe973dbd1e29bc208762564f7c3ddf17751d75d4c09fab0109ac92"
+    },
+    {
+      "path": "assets/models/viewmodels/npc-arms-ct.glb",
+      "bytes": 43788,
+      "sha256": "4c0c1db76bdbf01dc86db5c740879cd1a0143e155c44629bc924aaddd7776491"
+    },
+    {
+      "path": "assets/models/viewmodels/smokegrenade.glb",
+      "bytes": 103980,
+      "sha256": "ecac1a0336abcd13ffbece4bc43095ae8d8719ce4b30dc325c30a9d05dff3d57"
+    },
+    {
+      "path": "assets/models/viewmodels/usp.glb",
+      "bytes": 97648,
+      "sha256": "45e74d22a5502d18664de8b3669177d470072a31f7a1bd618da02d0d805dd26b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1033,
+      "sha256": "26c4f4f34068e9dff73bbb77aa7c606ede5a76bf888ca784b8d4defd2de33711"
+    },
+    {
+      "path": "runtime-config.js",
+      "bytes": 409,
+      "sha256": "ec640e7e9e68771bb3fafa06e71fc66cb959fae1040a87486d37ceaf47e2d609"
+    },
+    {
+      "path": "src/ai/bots.js",
+      "bytes": 67240,
+      "sha256": "c39a3773b758b7ba74f2a934c2110dad1b7b026e6465ee85b863577a1246c007"
+    },
+    {
+      "path": "src/ai/tactics.js",
+      "bytes": 3914,
+      "sha256": "b6714a9dbd86a5b4494ed586c97c649f91723c8a3901f7db68ff5b982fcf48ad"
+    },
+    {
+      "path": "src/audio/audio.js",
+      "bytes": 47523,
+      "sha256": "d82cb29136758b39eb2f93eb56404f8893ad6d07459aacf49d3b0dab73ef2ef5"
+    },
+    {
+      "path": "src/combat/combat.js",
+      "bytes": 45597,
+      "sha256": "34467d65f91824822fa550528a9526506b02507faf2d83d685dc8bb803fc57c0"
+    },
+    {
+      "path": "src/core/input.js",
+      "bytes": 16747,
+      "sha256": "2ce8ba60987722bc3f9461733e3aaf32619bc30143825ef8a3c094df5f77dbd9"
+    },
+    {
+      "path": "src/effects/effects.js",
+      "bytes": 52919,
+      "sha256": "fbba675987b51889a51e314d797a87a4950c36d55d3703697a9bce0cb7e015e8"
+    },
+    {
+      "path": "src/game/rounds.js",
+      "bytes": 35925,
+      "sha256": "a71155eb16fa9748637464159f070bf4bc85f528f08811d9f47e91044fa57ddf"
+    },
+    {
+      "path": "src/leaderboard/client.js",
+      "bytes": 14102,
+      "sha256": "2801469dc6071c6113c214f16149b29fc68fb4436afbf8a051e5ef52984bfb9a"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 4252,
+      "sha256": "effa98e8bb466ffd940a87a2949699fafa2116c70cf1a066b6b20690a5dbc196"
+    },
+    {
+      "path": "src/maps/catalog.js",
+      "bytes": 1822,
+      "sha256": "635d2d643ec83630e875b6d292493266d065c53039c2ba40ebe5a6c8302e2cdd"
+    },
+    {
+      "path": "src/network/endpoints.js",
+      "bytes": 881,
+      "sha256": "261064192f989183c1e583ad51f2974ef83f94f619dc3279baa5a5b1cccedefe"
+    },
+    {
+      "path": "src/network/multiplayer.js",
+      "bytes": 36010,
+      "sha256": "e90ac438ec291e4718c74b21cc326520f0d864cd7140a4129086fcfa33cde7cc"
+    },
+    {
+      "path": "src/player/player.js",
+      "bytes": 23342,
+      "sha256": "be9f1742e6c4425215567a493f9263c20e12a65ea059aad4915b71f80ba91a8f"
+    },
+    {
+      "path": "src/player/profile.js",
+      "bytes": 6190,
+      "sha256": "199197fa010fe007d154bca477205e8d972ca18898e719be47ef51136a048129"
+    },
+    {
+      "path": "src/player/spectator.js",
+      "bytes": 7880,
+      "sha256": "f6ca25f598f40b4271c5ecc0b9d16fad7fd7d986bf57058018a6d9aecfc6bd85"
+    },
+    {
+      "path": "src/shared/config.js",
+      "bytes": 2048,
+      "sha256": "1c3f9b893c2fc47393b866a6057aebdc11992d340a699d0a8f49862b4b903f9f"
+    },
+    {
+      "path": "src/shared/events.js",
+      "bytes": 664,
+      "sha256": "08cdd5502db5040d3503dd934209fbe6fb06a18dd4fc08cb7ca444086e98be71"
+    },
+    {
+      "path": "src/ui/hud.js",
+      "bytes": 143650,
+      "sha256": "ba5fb9860d0e3f3008ad8e26d0af1cefd0bee6770d39ead8c2d2779bec008a26"
+    },
+    {
+      "path": "src/weapons/data.js",
+      "bytes": 13520,
+      "sha256": "c42c951b1d2cf5aa6144a34046d6e1eebf363d4cc41e0049a15d2c1f956ec925"
+    },
+    {
+      "path": "src/weapons/viewmodel.js",
+      "bytes": 54779,
+      "sha256": "0648b3234368b00226bcab58a5e9dc5a607ee79bf0a318b69a4af4ad85c86ffd"
+    },
+    {
+      "path": "src/weapons/weapons.js",
+      "bytes": 27583,
+      "sha256": "7a1b9792609b3384476d6e0ce90099c59256f3a44c1ee929fc86bcaf7970165e"
+    },
+    {
+      "path": "src/world/map.js",
+      "bytes": 45793,
+      "sha256": "3c0cedd2d318c6d705ec126dcb01608f1853fa7e1562f2e7b29516e26b45af87"
+    },
+    {
+      "path": "src/world/maps/citadel.js",
+      "bytes": 6312,
+      "sha256": "8072ca9a770d0229ea001537303c9fde5ae599377fba2f455bd2dced0fa9aeb1"
+    },
+    {
+      "path": "src/world/maps/frostline.js",
+      "bytes": 5873,
+      "sha256": "cfd496dc53f4a3bc87706234e3d3fa2174af44786253c1cd5b4966d086ae2ff4"
+    },
+    {
+      "path": "src/world/maps/harbor.js",
+      "bytes": 6352,
+      "sha256": "ac76ab765ec2576bc63aefea2b0ddef6d6e64295db25dfe8cf659090db0d6c8d"
+    },
+    {
+      "path": "src/world/maps/layout.js",
+      "bytes": 1345,
+      "sha256": "407b06e16d05480c11d8828329495ccdbbaaffaf08ea203e176a02dd2edd8bd5"
+    },
+    {
+      "path": "src/world/maps/neon-foundry.js",
+      "bytes": 7171,
+      "sha256": "a2d17467aa61ec395ce08659b8a1154a94e30be240477993f57ea36c691e4ad2"
+    },
+    {
+      "path": "src/world/maps/registry.js",
+      "bytes": 416,
+      "sha256": "e6dc022134c6ea29e4c1bc43b98ae88284829bb61b9eebcf84e3502911f52256"
+    },
+    {
+      "path": "src/world/maps/runtime-builder.js",
+      "bytes": 5017,
+      "sha256": "d13b34b93f3257e5a465a0a48e2c7e51f5090da0b1f29b7ed046e0c1e7f0df10"
+    },
+    {
+      "path": "src/world/textures.js",
+      "bytes": 19019,
+      "sha256": "1de758464c29f93f4c2ebdbfa541ed5b54d2aec430af9c1db41b302e640ccc1c"
+    },
+    {
+      "path": "tools/trailer-audio.js",
+      "bytes": 35397,
+      "sha256": "da7e01182b144d29b0b0f56bdec685967980236487a4d0af342f1756a3cdf0ae"
+    },
+    {
+      "path": "tools/trailer.js",
+      "bytes": 65760,
+      "sha256": "16a74b75637b67137d3c2d1c516f05e801f0591cb8366455055fc5cc4cb3adac"
+    },
+    {
+      "path": "vendor/three/addons/loaders/GLTFLoader.js",
+      "bytes": 110043,
+      "sha256": "11ea6cf692882d7a2770f2cbb485724def0aa4e623abcfe45fbf74aa0ea5bc55"
+    },
+    {
+      "path": "vendor/three/addons/utils/BufferGeometryUtils.js",
+      "bytes": 31768,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+    },
+    {
+      "path": "vendor/three/addons/utils/SkeletonUtils.js",
+      "bytes": 8421,
+      "sha256": "e0dcb498b3383a032e6e934fcc5bfe07b5e99d4d4d1c77a7956fe935304abf5c"
+    },
+    {
+      "path": "vendor/three/LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "vendor/three/three.module.min.js",
+      "bytes": 682185,
+      "sha256": "54f21cfd2d0251ad8a406fb94f290c8c8086303f20ebdbf2f261edf5f55d5e96"
+    }
+  ]
+}
