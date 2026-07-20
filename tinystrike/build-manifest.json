@@ -95,8 +95,8 @@
     },
     {
       "path": "src/ai/bots.js",
-      "bytes": 67240,
-      "sha256": "c39a3773b758b7ba74f2a934c2110dad1b7b026e6465ee85b863577a1246c007"
+      "bytes": 82059,
+      "sha256": "672da04f66798ec6d6a83d261947f503f2eebb4dc0e4f9eb9ad7ec7f7d424d02"
     },
     {
       "path": "src/ai/tactics.js",
@@ -205,23 +205,23 @@
     },
     {
       "path": "src/world/map.js",
-      "bytes": 45793,
-      "sha256": "3c0cedd2d318c6d705ec126dcb01608f1853fa7e1562f2e7b29516e26b45af87"
+      "bytes": 47217,
+      "sha256": "681e87b1e271699f22fbc10e9869bb3b6d0cf279a2a209b2f2c92852885fbc61"
     },
     {
       "path": "src/world/maps/citadel.js",
-      "bytes": 6312,
-      "sha256": "8072ca9a770d0229ea001537303c9fde5ae599377fba2f455bd2dced0fa9aeb1"
+      "bytes": 6568,
+      "sha256": "937d6322d9a1a4207934e751537df10a890b7636eb49a7e827404d36e42bd91b"
     },
     {
       "path": "src/world/maps/frostline.js",
-      "bytes": 5873,
-      "sha256": "cfd496dc53f4a3bc87706234e3d3fa2174af44786253c1cd5b4966d086ae2ff4"
+      "bytes": 5916,
+      "sha256": "3426a64c4a06d048f1404bf432de4a0d22b1b1d3b3f23dbaa3629e1ac85360a2"
     },
     {
       "path": "src/world/maps/harbor.js",
-      "bytes": 6352,
-      "sha256": "ac76ab765ec2576bc63aefea2b0ddef6d6e64295db25dfe8cf659090db0d6c8d"
+      "bytes": 6562,
+      "sha256": "046e444d54504706d3e8bb384deddcf687eeac133d14108738fe7f650fef804a"
     },
     {
       "path": "src/world/maps/layout.js",
@@ -230,8 +230,8 @@
     },
     {
       "path": "src/world/maps/neon-foundry.js",
-      "bytes": 7171,
-      "sha256": "a2d17467aa61ec395ce08659b8a1154a94e30be240477993f57ea36c691e4ad2"
+      "bytes": 7294,
+      "sha256": "b6b5e87fbd2592fc240232fb86e9865531af38b6b7a6cbd84a4fa85e4fdf1bb2"
     },
     {
       "path": "src/world/maps/registry.js",
