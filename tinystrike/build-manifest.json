@@ -95,8 +95,8 @@
     },
     {
       "path": "src/ai/bots.js",
-      "bytes": 88788,
-      "sha256": "838cf41f68248b60d3709d5bad82b3c62a515549ee9aad3d08bc22ba80430f02"
+      "bytes": 92588,
+      "sha256": "dbba5f441850b80b0ce5fba804115a58a5ee95f736b669f8697bad16f8969b56"
     },
     {
       "path": "src/ai/tactics.js",
@@ -110,8 +110,8 @@
     },
     {
       "path": "src/combat/combat.js",
-      "bytes": 45597,
-      "sha256": "34467d65f91824822fa550528a9526506b02507faf2d83d685dc8bb803fc57c0"
+      "bytes": 49725,
+      "sha256": "1057e087d3266cf1535234c63c5710aa6edcaef865b9ca94db17b3b0bf0fdc96"
     },
     {
       "path": "src/core/input.js",
@@ -125,8 +125,8 @@
     },
     {
       "path": "src/game/rounds.js",
-      "bytes": 36199,
-      "sha256": "274525a85243975381f7a596c6baf05b393c6aba7bbb322f9825fc281d0533b9"
+      "bytes": 36698,
+      "sha256": "42436471a77e9c5a948db96d2d23f5d748be8033b2c021a4d669a367882d545c"
     },
     {
       "path": "src/leaderboard/client.js",
@@ -150,8 +150,8 @@
     },
     {
       "path": "src/network/multiplayer.js",
-      "bytes": 59521,
-      "sha256": "8fd0b92f55bb199432dccbe1c5c3101a00febc52e599d4416302a39624fce8f0"
+      "bytes": 71881,
+      "sha256": "486526ec942119977f4a3c26abdb5d58821265fa3e1ceb6881638426524eed81"
     },
     {
       "path": "src/network/room-directory.js",
