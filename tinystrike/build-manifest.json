@@ -130,8 +130,8 @@
     },
     {
       "path": "src/game/rounds.js",
-      "bytes": 36698,
-      "sha256": "42436471a77e9c5a948db96d2d23f5d748be8033b2c021a4d669a367882d545c"
+      "bytes": 36908,
+      "sha256": "67dc2a5989772c403bd6c4a23e43017dd087ad55077651fea3884c51701ad554"
     },
     {
       "path": "src/leaderboard/client.js",
@@ -155,8 +155,8 @@
     },
     {
       "path": "src/network/multiplayer.js",
-      "bytes": 71881,
-      "sha256": "486526ec942119977f4a3c26abdb5d58821265fa3e1ceb6881638426524eed81"
+      "bytes": 96483,
+      "sha256": "d210c8e18a065e6ceae925b322192ed998003a53b96a9c0086c8c0959650b6c3"
     },
     {
       "path": "src/network/room-directory.js",
@@ -190,8 +190,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 152718,
-      "sha256": "75397a22b1f693a67c137163ebc87e9faf2fd48436e24130683dc1751ca0534a"
+      "bytes": 153566,
+      "sha256": "3058e55d22c1cf8c77aae16a36fb5a895dbf7c0754bc4b8ada96d60804c485eb"
     },
     {
       "path": "src/weapons/data.js",
@@ -205,8 +205,8 @@
     },
     {
       "path": "src/weapons/weapons.js",
-      "bytes": 27583,
-      "sha256": "7a1b9792609b3384476d6e0ce90099c59256f3a44c1ee929fc86bcaf7970165e"
+      "bytes": 30099,
+      "sha256": "eaafd97aaa3ed3e96d9f3145bd500d04c121c930281423e0920cc13b7957d1f8"
     },
     {
       "path": "src/world/map.js",
