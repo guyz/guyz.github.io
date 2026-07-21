@@ -120,8 +120,8 @@
     },
     {
       "path": "src/core/touch-controls.js",
-      "bytes": 42312,
-      "sha256": "aedf8d00d40a16dcff65bdf1ad3fba32f8efdbe56eb45488d0d11335f09948bb"
+      "bytes": 42449,
+      "sha256": "54309bd442d64db20f31ae6d0c9427234abd5efa26b69c5c2e0898f30c9e6b7f"
     },
     {
       "path": "src/effects/effects.js",
@@ -170,8 +170,8 @@
     },
     {
       "path": "src/player/profile.js",
-      "bytes": 6190,
-      "sha256": "199197fa010fe007d154bca477205e8d972ca18898e719be47ef51136a048129"
+      "bytes": 8757,
+      "sha256": "3bc92f0eff872131b2c612ca1ba6da387e15b00d17c552a3794cdfbd7155f5e7"
     },
     {
       "path": "src/player/spectator.js",
@@ -190,8 +190,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 150313,
-      "sha256": "7980a2e400e44ab770f96c3d00625ee7698d283d15ebd375133104292714309f"
+      "bytes": 152718,
+      "sha256": "75397a22b1f693a67c137163ebc87e9faf2fd48436e24130683dc1751ca0534a"
     },
     {
       "path": "src/weapons/data.js",
