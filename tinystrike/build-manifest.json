@@ -120,8 +120,8 @@
     },
     {
       "path": "src/core/touch-controls.js",
-      "bytes": 41472,
-      "sha256": "0158bafc8132cf1594317b28afc1fbd38d059d98e6349d9cc9f9cc0f5a1db664"
+      "bytes": 42312,
+      "sha256": "aedf8d00d40a16dcff65bdf1ad3fba32f8efdbe56eb45488d0d11335f09948bb"
     },
     {
       "path": "src/effects/effects.js",
@@ -190,8 +190,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 147845,
-      "sha256": "3598116951719b54dca363a4fe719a5b7fc2d3778c91676243ebab0f48cf011d"
+      "bytes": 150313,
+      "sha256": "7980a2e400e44ab770f96c3d00625ee7698d283d15ebd375133104292714309f"
     },
     {
       "path": "src/weapons/data.js",
