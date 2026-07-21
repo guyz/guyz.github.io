@@ -85,8 +85,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1033,
-      "sha256": "26c4f4f34068e9dff73bbb77aa7c606ede5a76bf888ca784b8d4defd2de33711"
+      "bytes": 1431,
+      "sha256": "c04c758c3445b7ee35c28289b718aea5fdf5498adef4787334fbd682e79354e9"
     },
     {
       "path": "runtime-config.js",
@@ -105,8 +105,8 @@
     },
     {
       "path": "src/audio/audio.js",
-      "bytes": 54583,
-      "sha256": "8c463f1f6b8edacd18861364b2227e8123ef1a34a745c854bc7129d3ff6101f0"
+      "bytes": 54637,
+      "sha256": "5ab268b49e794fbe8fcbbbc9171aca1dff553c295caac1fd031fe36976310638"
     },
     {
       "path": "src/combat/combat.js",
@@ -115,8 +115,13 @@
     },
     {
       "path": "src/core/input.js",
-      "bytes": 16747,
-      "sha256": "2ce8ba60987722bc3f9461733e3aaf32619bc30143825ef8a3c094df5f77dbd9"
+      "bytes": 23972,
+      "sha256": "ab005c142e864bb60bf925fc615b9aab65521654d4e4b39c5fff21052007e0c2"
+    },
+    {
+      "path": "src/core/touch-controls.js",
+      "bytes": 41472,
+      "sha256": "0158bafc8132cf1594317b28afc1fbd38d059d98e6349d9cc9f9cc0f5a1db664"
     },
     {
       "path": "src/effects/effects.js",
@@ -135,8 +140,8 @@
     },
     {
       "path": "src/main.js",
-      "bytes": 4252,
-      "sha256": "effa98e8bb466ffd940a87a2949699fafa2116c70cf1a066b6b20690a5dbc196"
+      "bytes": 6631,
+      "sha256": "62a19e51b7a4688cf7701393680cb15cc63ab4e3c6836ada4bd72414a84d976f"
     },
     {
       "path": "src/maps/catalog.js",
@@ -160,8 +165,8 @@
     },
     {
       "path": "src/player/player.js",
-      "bytes": 25361,
-      "sha256": "8509b4473fc6e1f84daa2faff3f133a8929bd2df1e4b980869e8a740624fc640"
+      "bytes": 26077,
+      "sha256": "4827e9b45fe76817cd2edc4729a01aa07e3a37467b1cc69b4e4fc6ae1409fce2"
     },
     {
       "path": "src/player/profile.js",
@@ -185,8 +190,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 146239,
-      "sha256": "9840f03effa6e91c6f255d966e20ddf712a966009a40de12c58b7cfebe11e5ab"
+      "bytes": 147845,
+      "sha256": "3598116951719b54dca363a4fe719a5b7fc2d3778c91676243ebab0f48cf011d"
     },
     {
       "path": "src/weapons/data.js",
@@ -255,8 +260,8 @@
     },
     {
       "path": "tools/trailer.js",
-      "bytes": 65760,
-      "sha256": "16a74b75637b67137d3c2d1c516f05e801f0591cb8366455055fc5cc4cb3adac"
+      "bytes": 68921,
+      "sha256": "feb863aa6a1495b902ed98bac1c65a85a19976897c78ccd2fd75163546f59e22"
     },
     {
       "path": "vendor/three/addons/loaders/GLTFLoader.js",
