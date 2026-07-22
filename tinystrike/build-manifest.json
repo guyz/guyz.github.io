@@ -105,13 +105,13 @@
     },
     {
       "path": "src/audio/audio.js",
-      "bytes": 54637,
-      "sha256": "5ab268b49e794fbe8fcbbbc9171aca1dff553c295caac1fd031fe36976310638"
+      "bytes": 59546,
+      "sha256": "2f4ebf9a025b6f000db514e8186de1dd84c880c3e31aedbefc428093f371b104"
     },
     {
       "path": "src/combat/combat.js",
-      "bytes": 49725,
-      "sha256": "1057e087d3266cf1535234c63c5710aa6edcaef865b9ca94db17b3b0bf0fdc96"
+      "bytes": 50021,
+      "sha256": "741f99335181c6401eaab344241f3e6f80cac97204377a684bdb9bb1cd77f2d6"
     },
     {
       "path": "src/core/input.js",
@@ -120,8 +120,8 @@
     },
     {
       "path": "src/core/touch-controls.js",
-      "bytes": 42449,
-      "sha256": "54309bd442d64db20f31ae6d0c9427234abd5efa26b69c5c2e0898f30c9e6b7f"
+      "bytes": 45097,
+      "sha256": "d784c49bfbc316d94a03152e146db5b5d6d4ed2cfdad0ac2c45bb2b4b96d0cfb"
     },
     {
       "path": "src/effects/effects.js",
@@ -135,8 +135,8 @@
     },
     {
       "path": "src/leaderboard/client.js",
-      "bytes": 14102,
-      "sha256": "2801469dc6071c6113c214f16149b29fc68fb4436afbf8a051e5ef52984bfb9a"
+      "bytes": 29377,
+      "sha256": "5ac3a00e05ec39ab9f4e23003461b80002afc1c22e4c76cb4d373c0075b9ad25"
     },
     {
       "path": "src/main.js",
@@ -155,8 +155,8 @@
     },
     {
       "path": "src/network/multiplayer.js",
-      "bytes": 96483,
-      "sha256": "d210c8e18a065e6ceae925b322192ed998003a53b96a9c0086c8c0959650b6c3"
+      "bytes": 101729,
+      "sha256": "c68ab147715c2514d8e80b913fc376ed3b212207533ba8f33e2c052dd1ff4cc5"
     },
     {
       "path": "src/network/room-directory.js",
@@ -190,8 +190,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 153566,
-      "sha256": "3058e55d22c1cf8c77aae16a36fb5a895dbf7c0754bc4b8ada96d60804c485eb"
+      "bytes": 209026,
+      "sha256": "e70a5e4b7ebf016a89c277c5bd49514b6cfcd02180b566e7b3fc3ec55fb4768f"
     },
     {
       "path": "src/weapons/data.js",
