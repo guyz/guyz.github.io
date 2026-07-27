@@ -95,8 +95,8 @@
     },
     {
       "path": "src/ai/bots.js",
-      "bytes": 126101,
-      "sha256": "f21934aa0b6a9c1d93c615ad1a15c7d51463253c4edf1ec92a8ac8e9cf0e11f6"
+      "bytes": 126642,
+      "sha256": "85ce7383e6f52f6878cb2464cf073712b0d9870fdfad5d106f50fb80965f4276"
     },
     {
       "path": "src/ai/tactics.js",
@@ -355,8 +355,8 @@
     },
     {
       "path": "src/network/multiplayer.js",
-      "bytes": 101729,
-      "sha256": "c68ab147715c2514d8e80b913fc376ed3b212207533ba8f33e2c052dd1ff4cc5"
+      "bytes": 105850,
+      "sha256": "a5b7b9a0cdf25872c1087f4f3806a8df3e36c80bbe7550fbd6e0eb7f05c27849"
     },
     {
       "path": "src/network/room-directory.js",
