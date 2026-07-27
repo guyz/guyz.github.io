@@ -115,13 +115,18 @@
     },
     {
       "path": "src/core/input.js",
-      "bytes": 23972,
-      "sha256": "ab005c142e864bb60bf925fc615b9aab65521654d4e4b39c5fff21052007e0c2"
+      "bytes": 28395,
+      "sha256": "19ce54c1a660ee772e448d7aa88b9ab737f7577347bd80c7bf7efba42d2873b5"
+    },
+    {
+      "path": "src/core/settings.js",
+      "bytes": 9623,
+      "sha256": "15766f605ef235070125657d766effe72f7d9265213a827633e0daf48f5067c5"
     },
     {
       "path": "src/core/touch-controls.js",
-      "bytes": 45097,
-      "sha256": "d784c49bfbc316d94a03152e146db5b5d6d4ed2cfdad0ac2c45bb2b4b96d0cfb"
+      "bytes": 45541,
+      "sha256": "3ad94568e6cdb681f456a48314ea58c01fc3cb0d469ac41f85712e890ed6dd75"
     },
     {
       "path": "src/effects/effects.js",
@@ -255,8 +260,8 @@
     },
     {
       "path": "src/gfx/sky/index.js",
-      "bytes": 77891,
-      "sha256": "3984b000b4133a8b7e9595cd37082b44238f6a76273b24d72e32ccb2bf7d5404"
+      "bytes": 78613,
+      "sha256": "904a1d97b30494fd4e66f5d705399412aae99f7641f0ccb8456eeffa57a72574"
     },
     {
       "path": "src/gfx/sky/luts.js",
@@ -340,8 +345,8 @@
     },
     {
       "path": "src/main.js",
-      "bytes": 9996,
-      "sha256": "307f7079d445abee38d287b4b17c9b1fe6e0715490af613eec0e7fc28ddd64b5"
+      "bytes": 10239,
+      "sha256": "407b6d1b38a931b310fb107dec694dd789e261dccee044b445d977224076c518"
     },
     {
       "path": "src/maps/catalog.js",
@@ -356,7 +361,7 @@
     {
       "path": "src/network/multiplayer.js",
       "bytes": 111908,
-      "sha256": "0586b47151e686a2fca2f6764b9c84c34a387f6bb863b1e91e1566cf5db4c098"
+      "sha256": "027939ba070089baae1fa35b3212bc4352018e9645240eec7cc061668f9b9d4e"
     },
     {
       "path": "src/network/room-directory.js",
@@ -365,8 +370,8 @@
     },
     {
       "path": "src/player/player.js",
-      "bytes": 26136,
-      "sha256": "312b5b30bc32e18a34ae2571875c20b0bdc13a4b2e0ee30fd701eb5aa572d60b"
+      "bytes": 26570,
+      "sha256": "9478caeaf535b3c85c7713f3a0a33d7b3f8cf6dff19bb22772653dedb785d223"
     },
     {
       "path": "src/player/profile.js",
@@ -390,8 +395,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 216297,
-      "sha256": "04de16042d5efbb889390cde98944f65dab0a8e5bacee8df43248af3e159fcdf"
+      "bytes": 227665,
+      "sha256": "b57fb5d6b7e70aed7f277b81d489302017a997300299ffbb5c5b43e2b4c45b0d"
     },
     {
       "path": "src/weapons/data.js",
@@ -415,8 +420,8 @@
     },
     {
       "path": "src/world/map.js",
-      "bytes": 75846,
-      "sha256": "d40c6b28a74054bd77c7ca380472bbd543fe4c580e6f037ed296ccd7156f5796"
+      "bytes": 75916,
+      "sha256": "5978a08a82e3a28f1fd992a3cf4d79672457b965b9b16367ab3a3ad0c81252c0"
     },
     {
       "path": "src/world/maps/citadel.js",
