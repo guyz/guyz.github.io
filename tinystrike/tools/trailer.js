@@ -39,8 +39,12 @@ const JPEG_QUALITY = 0.87;
 const GRENADE_IDS = { hegrenade: 1, flashbang: 1, smokegrenade: 1 };
 
 const UPDATE_ORDER = [
-  'rounds', 'player', 'weapons', 'viewmodel', 'bots',
-  'combat', 'effects', 'hud', 'audio', 'input',
+  // Keep this in lockstep with src/main.js. The world/material systems drive
+  // the HDR sky, exposure, environment maps, and deferred texture cleanup;
+  // omitting them makes a trailer frame visibly different from live play.
+  'world', 'rounds', 'touchControls', 'player', 'weapons', 'viewmodel', 'bots',
+  'combat', 'multiplayer', 'spectator', 'effects', 'hud', 'audio', 'input',
+  'materials',
 ];
 
 // CS olive-green palette (matches the game's DOM HUD flavor)
@@ -1373,7 +1377,7 @@ class TrailerDirector {
 
       // =====================================================================
       { // SCENE 5 — UTILITY (8 s): smoke into the B door, flashbang pop,
-        //  HE lobbed through the mid double doors onto two bots at the barrel.
+        //  then an HE lobbed through the mid double doors for area denial.
         name: 'utility',
         duration: 8,
         dipIn: 0.25, dipOut: 0.25,
@@ -1383,13 +1387,9 @@ class TrailerDirector {
           T.tpPlayer(-4.5, 0.06, -29.0, 2.1, 0);
           T.arm(['m4a1', 'smokegrenade', 'flashbang', 'hegrenade'], 'smokegrenade');
           T.setCaption('UTILITY — TAKE THE MAP', 5.0);
-          const { v4, v5 } = T._cast;
-          if (v4) T._protected.delete(v4);
-          if (v5) T._protected.delete(v5);
         },
         tick(t) {
           const s = T._s;
-          const { v4, v5 } = T._cast;
 
           // --- beat 1: smoke into the B door archway (watch it bloom) ---
           if (t < 3.3) {
@@ -1423,32 +1423,13 @@ class TrailerDirector {
           }
           if (t < 5.2) return;
 
-          // --- beat 3: HE through the doors onto the staged pair ---
+          // --- beat 3: HE through the doors; the detonation finishes the beat
+          //     without teleporting sacrificial bots into the camera view. ---
           if (!s.heEquipped) { s.heEquipped = true; T.game.weapons.equip('hegrenade'); }
           T.smoothLookAt(T._v2.set(-3, 4, -17), 8, 0.7);
           if (t > 5.85 && !s.he) { s.he = true; T.mouse(0, true); }
           if (t > 6.0) T.mouse(0, false);
 
-          // Stage the HE victims by the mid barrel only once the grenade is
-          // in flight: nobody can flinch the throw, and their pop-in hides
-          // under the flashbang whiteout. Pre-weakened — HE caps at 98 vs
-          // 100 hp, so a full-health pair could never die to one grenade.
-          if (t > 6.55 && !s.staged) {
-            s.staged = true;
-            if (v4) {
-              T.pin(v4, -3.6, 0.06, -17.5, Math.PI);
-              try { v4.takeDamage(62, {}); } catch (_) {}
-            }
-            if (v5) {
-              T.pin(v5, -2.2, 0.06, -16.2, Math.PI);
-              try { v5.takeDamage(62, {}); } catch (_) {}
-            }
-          }
-
-          if (t > 7.82 && t < 7.9) {
-            if (v4) T.ensureDead(v4, 'hegrenade', 'HE kill #1');
-            if (v5) T.ensureDead(v5, 'hegrenade', 'HE kill #2');
-          }
           if (t > 6.2 && !s.plantCheck) {
             s.plantCheck = true;
             if (!T._planted) T._note('bomb not yet planted by end of utility scene');
@@ -1687,21 +1668,23 @@ class TrailerDirector {
     renderer.setAnimationLoop(null);
     renderer.setPixelRatio(1);
     renderer.setSize(W, H, false); // keep CSS size
+    this.game.post?.setSize();
     camera.aspect = W / H;
     camera.updateProjectionMatrix();
     return saved;
   }
 
   _restoreRenderer(saved) {
-    const { renderer, camera } = this.game;
+    const game = this.game;
+    const { renderer, camera } = game;
     if (saved) {
       renderer.setPixelRatio(saved.pixelRatio);
       renderer.setSize(window.innerWidth, window.innerHeight);
+      game.post?.setSize();
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
     }
     // Re-arm a frame loop equivalent to main.js's so the page stays alive.
-    const game = this.game;
     let last = performance.now();
     renderer.setAnimationLoop(() => {
       const now = performance.now();
@@ -1711,7 +1694,7 @@ class TrailerDirector {
         const sys = game[key];
         if (sys && typeof sys.update === 'function') sys.update(dt);
       }
-      renderer.render(game.scene, game.camera);
+      game.renderFrame();
     });
   }
 
@@ -1774,7 +1757,7 @@ class TrailerDirector {
         }
 
         // 4) render + composite + upload (sequential — order matters)
-        game.renderer.render(game.scene, game.camera);
+        game.renderFrame();
         this._composite(scene, t);
         const blob = await this._blob();
         await this._upload(frameN, blob);
@@ -1797,9 +1780,16 @@ class TrailerDirector {
 // ---------------------------------------------------------------------------
 // Entry point (called by src/main.js after boot when the URL has ?trailer)
 // ---------------------------------------------------------------------------
-const TRAILER_GLBS = [
-  'ak47', 'awp', 'm4a1', 'smokegrenade', 'flashbang', 'hegrenade',
-];
+const TRAILER_MODEL_SOURCES = {
+  // The graphics overhaul deliberately replaced firearms with detailed PBR
+  // procedural models. Grenades and the shared NPC arms remain authored GLBs.
+  ak47: 'procedural',
+  awp: 'procedural',
+  m4a1: 'procedural',
+  smokegrenade: 'glb',
+  flashbang: 'glb',
+  hegrenade: 'glb',
+};
 
 function trailerAssetsReady(game) {
   const characters = game.bots && game.bots._charAssets;
@@ -1808,7 +1798,9 @@ function trailerAssetsReady(game) {
   return !!(
     characters && characters.ct && characters.t &&
     viewmodel._npcArmsSource && models &&
-    TRAILER_GLBS.every((id) => models[id] && models[id].userData.weaponSource === 'glb')
+    Object.entries(TRAILER_MODEL_SOURCES).every(([id, source]) =>
+      models[id] && models[id].userData.weaponSource === source
+    )
   );
 }
 
@@ -1895,7 +1887,7 @@ export default function initTrailer(game) {
   // round. From here on the game only moves when the recorder steps it.
   try {
     game.renderer.setAnimationLoop(null);
-    game.renderer.render(game.scene, game.camera); // leave one frame visible
+    game.renderFrame(); // leave one frame visible
   } catch (_) { /* ignore */ }
   const api = {
     start: () => director.start(),

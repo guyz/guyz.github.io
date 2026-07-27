@@ -110,8 +110,8 @@
     },
     {
       "path": "src/combat/combat.js",
-      "bytes": 50021,
-      "sha256": "741f99335181c6401eaab344241f3e6f80cac97204377a684bdb9bb1cd77f2d6"
+      "bytes": 50829,
+      "sha256": "3aced720a5ef20f451c50b65328691d2a14b95e81225bd20f0a90b8a91088d64"
     },
     {
       "path": "src/core/input.js",
@@ -355,8 +355,8 @@
     },
     {
       "path": "src/network/multiplayer.js",
-      "bytes": 105850,
-      "sha256": "a5b7b9a0cdf25872c1087f4f3806a8df3e36c80bbe7550fbd6e0eb7f05c27849"
+      "bytes": 111908,
+      "sha256": "0586b47151e686a2fca2f6764b9c84c34a387f6bb863b1e91e1566cf5db4c098"
     },
     {
       "path": "src/network/room-directory.js",
@@ -365,18 +365,18 @@
     },
     {
       "path": "src/player/player.js",
-      "bytes": 26077,
-      "sha256": "4827e9b45fe76817cd2edc4729a01aa07e3a37467b1cc69b4e4fc6ae1409fce2"
+      "bytes": 26136,
+      "sha256": "312b5b30bc32e18a34ae2571875c20b0bdc13a4b2e0ee30fd701eb5aa572d60b"
     },
     {
       "path": "src/player/profile.js",
-      "bytes": 8757,
-      "sha256": "3bc92f0eff872131b2c612ca1ba6da387e15b00d17c552a3794cdfbd7155f5e7"
+      "bytes": 10718,
+      "sha256": "a6a5d92ad5b6da465b9a234bddb280faa224b15e0ae3d6e3db542813904bca28"
     },
     {
       "path": "src/player/spectator.js",
-      "bytes": 8283,
-      "sha256": "54d5cf054ca5640737d87393318bb7d43dd4ec26b7489e304a67f4e49352055a"
+      "bytes": 8404,
+      "sha256": "49bfa9d70629bc93d71374fc6676a4ab41b3a0d654656f01527a91272fb03f37"
     },
     {
       "path": "src/shared/config.js",
@@ -390,8 +390,8 @@
     },
     {
       "path": "src/ui/hud.js",
-      "bytes": 213260,
-      "sha256": "e5c86931afe1fd1fd3a146ec601bcfcf0ac5aa5fd9495ae18fdb5da53326ee28"
+      "bytes": 216297,
+      "sha256": "04de16042d5efbb889390cde98944f65dab0a8e5bacee8df43248af3e159fcdf"
     },
     {
       "path": "src/weapons/data.js",
@@ -410,8 +410,8 @@
     },
     {
       "path": "src/world/dressing.js",
-      "bytes": 163775,
-      "sha256": "40b2d5a5cad9d04afe774224993431a240783ac6dd7f315d3c6081697cfe3f11"
+      "bytes": 189009,
+      "sha256": "cad62e0161c1e7c59ff4bd774289633d68c8704cfa6fa93b4ba3ea751b331689"
     },
     {
       "path": "src/world/map.js",
@@ -475,8 +475,8 @@
     },
     {
       "path": "tools/trailer.js",
-      "bytes": 68921,
-      "sha256": "feb863aa6a1495b902ed98bac1c65a85a19976897c78ccd2fd75163546f59e22"
+      "bytes": 68533,
+      "sha256": "dd7456d9012a5a39042506ab73f445cdf6586fabbca1dce4a16f82478a63bb4b"
     },
     {
       "path": "vendor/three/addons/geometries/RoundedBoxGeometry.js",
