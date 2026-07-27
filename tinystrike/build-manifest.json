@@ -85,8 +85,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1431,
-      "sha256": "c04c758c3445b7ee35c28289b718aea5fdf5498adef4787334fbd682e79354e9"
+      "bytes": 11630,
+      "sha256": "88c18d03111102277991e2583b148f8a31382b602c884538732c77fef76deac8"
     },
     {
       "path": "runtime-config.js",
@@ -340,8 +340,8 @@
     },
     {
       "path": "src/main.js",
-      "bytes": 9645,
-      "sha256": "bf57fb446b5855e3b2176839bd290ce4bb92afff93e6a0c2686cd2bbe6a38f32"
+      "bytes": 9996,
+      "sha256": "307f7079d445abee38d287b4b17c9b1fe6e0715490af613eec0e7fc28ddd64b5"
     },
     {
       "path": "src/maps/catalog.js",
